@@ -1,0 +1,40 @@
+.grid-container{
+    width: 60vh;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+    grid-template-rows: repeat(8,50px);
+    border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(245, 186, 196);
+}
+#gridItems{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(165, 210, 228);
+ justify-content: center;
+   
+}
+
+.highlight{
+    background-color: pink;
+}
+div h4{
+    font-size: 10px;
+    background-color: azure;
+
+}
+.bullet{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 50px;
+}
