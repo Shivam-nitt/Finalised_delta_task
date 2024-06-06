@@ -1,3 +1,9 @@
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 .grid-container{
     width: 60vh;
     height: 60vh;
@@ -5,14 +11,14 @@
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(8,50px);
-    grid-template-rows: repeat(8,50px);
+    grid-template-columns: repeat(8,7.5vh);
+    grid-template-rows: repeat(8,7.vh);
     border: solid 1px;
     margin: 10px;
     padding: 10px;
     background-color: rgb(245, 186, 196);
 }
-#gridItems{
+#chotaDabba{
     display: flex;
     align-items: center;
     border: solid 1px;
@@ -32,9 +38,16 @@ div h4{
     background-color: azure;
 
 }
-.bullet{
-    width: 50px;
-    height: 50px;
+.bullet {
+    position: absolute;
+    width: 20px;
+    height: 20px;
     background-color: red;
-    border: 50px;
+    border-radius: 50%;
+}
+#button{
+    margin-left: 0px;
+    background-color: blanchedalmond;
+    border:solid 1.7px;
+    box-shadow: rgb(157, 38, 58) 2px 2px ;
 }
